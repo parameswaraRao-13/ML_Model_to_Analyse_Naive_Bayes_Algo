@@ -10,6 +10,7 @@ I build a simple model using candy-data.csv data set for predicting candy is cho
 (C) hyper parameters tuning 
 (d) basic SVM classification model 
 (e) summary of model output.
+(f) Implimented PCA for dimensionality reduction
 
 candy-data.csv: data set for given model.
  
@@ -17,3 +18,4 @@ Result:
 1. Auuracy: gaussian NB: 0.8846153846153846
 2. Accuracy:Multinomial NB: 0.8461538461538461
 3. Accuracy:Bernouli's NB: 0.8461538461538461
+4. pca analysis: 3 components are enough to get the same accuracy as with all componets.
